@@ -1,0 +1,54 @@
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(155, 48, 255);
+}
+h3{
+    text-align: center;
+}
+div{
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+button{
+ margin-top: 40px;
+ margin-left:47%;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateX(10px);
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    div{
+        height: 180px;
+        width: 100%;
+        margin: auto;
+        border: 5px solid black;
+        border-radius: 6px;
+    }
+    button{
+        margin-left: 35%;
+    }
+
+    
+}
+    
+    
+
+    
+

@@ -1,0 +1,253 @@
+@media screen and (max-width: 991px) {
+    .navitems{
+        display: none;
+        
+    }
+    .content{
+        flex-direction: column-reverse;
+    }
+    .princeverma{
+        font-size: 4rem;
+    }
+    .secondPage{
+        margin-top: 80px;
+    }
+    .navdiv{
+        justify-content: space-between;
+    }
+    #ham{
+        display: block;
+    }
+    
+    .navitems ul{
+        position: absolute; 
+        right: 10vw;
+        background-color: rgb(118, 117, 117);
+        padding: 7px;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 7px;
+        flex-direction: column;
+    }
+    .navitems.active{
+        
+        display: block;
+    }
+    li{
+        font-size: 13px;
+        margin: 8px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    
+    .secondOne{
+        margin-top: -12%;
+        
+    }
+    .mainBox{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+   .thirdOne{
+    margin-bottom: 60px;
+   }
+    
+    .secondBox{
+        height: 35vh;
+    }
+
+    #pageSix{
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+    .pic{
+        height: 17.8rem;
+        width: 17.8rem;
+    }
+    
+    
+    
+    .thirdOne, .thirdTwo{
+        margin-left: 34%;
+    }
+    .about-pic{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .getcontact{
+        font-size: 42px;
+    }
+    .footertext{
+        font-size: 13px;
+    }
+    .icons{
+    font-size: 32px;
+    }
+    .Prince{
+        font-size: 30px;
+    }
+    .myawesome, .services{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    
+}
+@media screen and (max-width:579px) {
+    h2{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    }
+    .Prince{
+        font-size: 30px;
+    }
+    .princeverma{
+        font-size: 2.3rem;
+        margin: auto;
+    }
+    .animation{
+        font-size: 1rem;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .pic{
+      height: 15rem;
+      width: 15rem;
+    }
+    .button{
+        font-size: 13px;
+        width: 100%;
+    }
+    .icons{
+        font-size: 27px;
+       
+        text-align: center;
+        
+        
+    }
+    .topicon{
+        margin-left: 34px;
+    }
+    .focus{
+        padding: 10px;
+    }
+    .myawesome, .services{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .lorem{
+
+        font-size: 15px;
+        /* text-align: center; */
+        margin-right: 20px;
+        
+    }
+    .thirdBox{
+        margin-bottom: -36px;
+    }
+    
+    .cvbutton{
+        font-size: 10px;
+        margin-left: 0px;
+        
+        text-align: center;
+    }
+    .firstBox{
+        width: 100%;
+        text-align: center;
+       
+       
+    }
+    .same{
+        height: 200px;
+    width: 170px;
+    font-size: 10px;
+    overflow: hidden;
+    }
+    .Aboutme{
+        font-size: 32px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .accordian-question{
+        font-size: 12px;
+    
+    }
+    .getcontact{
+        font-size: 33px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .both{
+        margin-left: 0px;
+    }
+    .Email, .name, .message, .number{
+        height: 12px;
+        border: 2px solid orange;
+        font-size: 10px;
+        width: 100%;
+        /* text-align: center; */
+    }
+    
+    .contact_form{
+        width: 70%;
+    }
+    
+
+    .send{
+        font-size: 11px;
+        text-align: center;
+      margin-left: 38px;
+      padding: 6px;
+        
+    }
+    .footer{
+      
+        text-align: center;
+    }
+    .footertext{
+        font-size: 10px;
+    }
+    .firstBoxText{
+        padding: 0px;
+    }
+    
+    .uiuxText, .backendText, .frontendText{
+        font-size: 12px;
+      }
+      .learn{
+        font-size: 12px;
+        margin-right: 10px;
+      }
+    
+}
+@media screen and (max-width:420px){
+    .pic{
+        height: 11rem;
+        width: 11rem;
+
+      }
+      .princeverma{
+        font-size: 30px;
+      }
+      h2{
+        font-size: 1.1rem;
+      }
+      p{
+        font-size: 12px;
+      }
+      .lorem{
+        font-size: 12px;
+      }
+      .uiuxText, .backendText, .frontendText{
+        font-size: 12px;
+      }
+}

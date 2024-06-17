@@ -1,0 +1,74 @@
+.maincontainer{
+    /* height: 700px; */
+    width: 500px;
+    border: 7px solid rgb(0, 0, 0);
+    /* margin-top: 80px; */
+    /* margin-left: 32%; */
+    margin: auto;
+    border-radius: 8px;
+   background-color: black;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+.input{
+    margin-left: 50px;
+    width: 54%;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+ul{
+    margin-left: 10px;
+    
+    
+}
+li{
+    
+    background-color: rgb(96, 95, 95);
+    padding: 4px;
+    border-radius: 10px;
+    width: 83%;
+     color: rgb(19, 18, 18);
+    margin-top: 10px;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.addtask{
+    padding: 4px 15px 4px 15px;
+ background-color: rgb(189, 96, 252);
+ color: white;
+
+ border-radius: 7px;
+ font-size: 15px;
+   
+}
+.addtask:hover{
+    background-color: orange;
+    color: white;
+}
+
+  
+   
+   
+.fa-regular{
+    font-size: 25px;
+
+}
+.delete{
+    font-size: 14px;
+    padding: 4px 15px 4px 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.delete:hover{
+    color: white;
+    background-color: red;
+    
+}
