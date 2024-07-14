@@ -52,7 +52,7 @@
    }
     
     .secondBox{
-        height: 55vh;
+        height: 36vh;
     }
 
     #pageSix{
@@ -233,6 +233,10 @@
       }
     .button{
         font-size: 20px;
+    }
+    .C{
+        margin-top: 6.5rem;
+        font-size: 2rem;
     }
       .princeverma{
         font-size: 40px;
