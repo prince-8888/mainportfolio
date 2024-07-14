@@ -1,32 +1,41 @@
-h1{
+
+body{
+    text-align: center;
+}
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: rgb(155, 48, 255);
 }
-h3{
+
+h3 {
     text-align: center;
 }
-div{
-    height: 250px;
-    width: 500px;
+
+div {
+    height: 25rem;
+    width: 100%;
     margin: auto;
     border: 5px solid black;
     border-radius: 6px;
 }
-button{
- margin-top: 40px;
- margin-left: 36rem;
-    padding: 5px 15px 5px 15px;
-    font-size: 15px;
-    background-color: black;
+
+button {
+    margin-top: 40px;
+   padding: 8px 20px 8px 20px;
+   width: 65%;
+   font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: orange;
     color: white;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     transform: translateX(10px);
 }
 
-h4{
+h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }

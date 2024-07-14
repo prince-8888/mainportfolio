@@ -2,7 +2,7 @@ let btn=document.querySelector("button");
 btn.addEventListener("click",function(){
     let h2=document.querySelector("h3");
     let randomColor = getRandomColor();
-    h2.innerText = randomColor;
+    // h2.innerText = randomColor;
     console.log("color updated");
     let div=document.querySelector("div");
     div.style.backgroundColor=randomColor;

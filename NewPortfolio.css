@@ -473,6 +473,11 @@ img {
     margin-top: 20px;
     border: 2px solid black;
 }
+.apnaghar{
+    background-image: url(apnaGhar.png);
+    background-size: cover;
+    background-position: center;
+}
 
 .img8 {
     background-image: url(weather.png);
