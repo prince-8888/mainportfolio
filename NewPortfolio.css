@@ -393,7 +393,26 @@ h3{
     color: orange;
 }                             
                 
-                
+              
+/* Certificates */
+
+.c{
+    color: orange;
+    text-align: center;
+}
+.CertificateH{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+img{
+    width: 100%;
+    margin-top: 0.7rem;
+    
+}
+.Cimage{
+    margin: 1rem;
+}
                
 
 
