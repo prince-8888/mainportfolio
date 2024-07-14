@@ -1,7 +1,6 @@
 @media screen and (max-width: 991px) {
     .navitems{
         display: none;
-        
     }
     .content{
         flex-direction: column-reverse;
@@ -11,9 +10,6 @@
     }
     .secondPage{
         margin-top: 80px;
-    }
-    .navdiv{
-        justify-content: space-between;
     }
     #ham{
         display: block;
@@ -56,7 +52,7 @@
    }
     
     .secondBox{
-        height: 35vh;
+        height: 55vh;
     }
 
     #pageSix{
@@ -107,7 +103,7 @@
         font-size: 30px;
     }
     .princeverma{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         margin: auto;
     }
     .animation{
@@ -117,11 +113,11 @@
         overflow: hidden;
     }
     .pic{
-      height: 15rem;
-      width: 15rem;
+      height: 17rem;
+      width: 17rem;
     }
     .button{
-        font-size: 13px;
+        font-size: 15px;
         width: 100%;
     }
     .icons{
@@ -192,7 +188,7 @@
     .Email, .name, .message, .number{
         height: 12px;
         border: 2px solid orange;
-        font-size: 10px;
+        font-size: 12px;
         width: 100%;
         /* text-align: center; */
     }
@@ -231,13 +227,25 @@
 }
 @media screen and (max-width:420px){
     .pic{
-        height: 11rem;
-        width: 11rem;
+        height: 15rem;
+        width: 15rem;
 
       }
+    .button{
+        font-size: 20px;
+    }
       .princeverma{
-        font-size: 30px;
+        font-size: 40px;
       }
+    .icons{
+        font-size: 38px;
+    }
+    .cvbutton{
+        font-size: 20px;
+    }
+    .send{
+        font-size: 20px;
+    }
       h2{
         font-size: 1.1rem;
       }
@@ -250,4 +258,9 @@
       .uiuxText, .backendText, .frontendText{
         font-size: 12px;
       }
+     .Email, .name, .message, .number{
+        font-size: 14px;
+    
+        /* text-align: center; */
+    }
 }

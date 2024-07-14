@@ -1,68 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Source+Code+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Permanent+Marker&family=Rubik+Scribble&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@700&family=Kalam:wght@700&display=swap'); 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@700&family=Kalam:wght@700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  transition: 0.1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.1s;
 }
 
-:root{
-    --li-color:black;
-    --pro-color:black;
-    --box-shadow:5px 20px 30px yellow;
-    --pipe:2px solid rgb(0, 0, 0);
-    --accor:white;
-    --accorbox:2px 2px 2px 4px gray;
+:root {
+    --li-color: black;
+    --pro-color: black;
+    --box-shadow: 5px 20px 30px yellow;
+    --pipe: 2px solid rgb(0, 0, 0);
+    --accor: white;
+    --accorbox: 2px 2px 2px 4px gray;
 }
-#ham{
+
+#ham {
     font-size: 24px;
-  margin-left: 20px;
+    margin-left: 20px;
     display: none;
 }
 
 
-.focus{
+.focus {
     max-width: 1050px;
     margin: auto;
     padding-inline: 15px;
     align-items: center;
-    overflow: hidden; 
- }
+    overflow: hidden;
+}
 
- li{
+li {
     color: var(--li-color);
- }
- 
- .fa-moon:hover{
-    transform: scale(1.5);
- }
+}
 
-.navdiv{
+.fa-moon:hover {
+    transform: scale(1.5);
+}
+
+.navdiv {
     display: flex;
-     width: 100%;
-  height: 70px;
+    width: 100%;
+    height: 70px;
     justify-content: space-evenly;
     align-items: center;
-   
+
 }
 
-ul{
+ul {
     /* position: relative; */
-    display: flex;  
+    display: flex;
 }
 
-li{
+li {
     margin: 14px;
     list-style-type: none;
     font-size: 20px;
     transition: 0.4s;
 }
 
-.fa-moon{
+.fa-moon {
     font-size: 26px;
     display: flex;
     justify-content: center;
@@ -72,12 +74,12 @@ li{
     transition: 0.3s;
 }
 
-li:hover{
+li:hover {
     color: orange;
     text-decoration: underline;
 }
 
-.Prince{
+.Prince {
     margin-right: 30%;
     margin-top: 8px;
     font-size: 50px;
@@ -85,13 +87,13 @@ li:hover{
     font-family: 'kalam';
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
 
-.Contact{
+.Contact {
     background-color: orange;
     padding: 4px 15px 4px 15px;
     border-radius: 30px;
@@ -100,7 +102,7 @@ a{
     transition: 0.3s;
 }
 
-.Contact:hover{
+.Contact:hover {
     color: black;
     background-color: white;
     transform: translate(10px);
@@ -108,11 +110,11 @@ a{
     box-shadow: 2px 2px 2px black;
 }
 
-.container{
+.container {
     margin-top: 2rem;
 }
 
-.pic{
+.pic {
     height: 21.8rem;
     width: 21.8rem;
     border-radius: 50%;
@@ -121,34 +123,34 @@ a{
     background-size: cover;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
 }
 
-.text{
+.text {
     margin-bottom: 20px;
     font-size: 25px;
 }
 
-p{
+p {
     font-size: 14px;
     margin-top: 10px;
 }
 
-.princeverma{
+.princeverma {
     color: rgb(255, 170, 12);
     font-size: 4rem;
     font-family: 'Commissioner';
 }
 
-h3{
+h3 {
     color: rgb(131, 58, 199);
 }
 
-.button{
+.button {
     padding: 5px 30px 5px 30px;
     margin-top: 20px;
     background-color: orange;
@@ -162,21 +164,21 @@ h3{
     margin-top: 40px;
 }
 
-.button:hover{
+.button:hover {
     color: black;
     background-color: white;
     transform: translate(10px);
 }
 
-.icons{
+.icons {
     width: 80%;
-    margin-top:60px ;
-   transition: 1s;
+    margin-top: 60px;
+    transition: 1s;
     font-size: 50px;
-    
+
 }
 
-.bx{
+.bx {
     margin-left: 10px;
     color: orange;
     border-radius: 50%;
@@ -184,75 +186,76 @@ h3{
     transition: 0.3s;
 }
 
-.bx:hover{
+.bx:hover {
     color: blueviolet;
-    box-shadow: 2px 2px 3px black;    
+    box-shadow: 2px 2px 3px black;
 }
 
-.animation{
+.animation {
     font-size: 32px;
     border-right: var(--pipe);
     width: 0px;
     color: blueviolet;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s steps(45,end) infinite forwards;
+    animation: typing 5s steps(45, end) infinite forwards;
 }
 
 @keyframes typing {
-    0%{
+    0% {
         width: 0;
     }
-    50%{
+
+    50% {
         width: 58%;
     }
 }
 
-                                                      /* SecondPage  */
+/* SecondPage  */
 
-#secondPage{
+#secondPage {
     margin-top: 80px;
 }
 
-.mainBox{
+.mainBox {
     display: flex;
 }
 
-.firstBox{
-   height: 400px;
+.firstBox {
+    height: 400px;
     width: 500px;
 }
 
-.secondBox{
+.secondBox {
     height: 100vh;
     width: 300px;
 }
 
-.thirdBox{
+.thirdBox {
     width: 550px;
 }
 
-.thirdOne{
+.thirdOne {
     height: 230px;
     width: 200px;
     border: 6px solid orange;
     margin-top: 8%;
     margin-left: 20%;
     border-radius: 15px;
-     box-shadow: 5px 20px 30px #f58bf1; 
+    box-shadow: 5px 20px 30px #f58bf1;
 }
 
-.thirdTwo{
+.thirdTwo {
     height: 230px;
     width: 200px;
     border: 6px solid orange;
     margin-top: 8%;
     margin-left: 20%;
     border-radius: 15px;
-    box-shadow: 5px 20px 30px #8babf5; 
+    box-shadow: 5px 20px 30px #8babf5;
 }
 
-.secondOne{
+.secondOne {
     height: 230px;
     width: 200px;
     border: 6px solid orange;
@@ -262,113 +265,137 @@ h3{
     box-shadow: 5px 20px 30px #e7dd85;
 }
 
-.myawesome{
-   margin-left: 25px;
+.myawesome {
+    margin-left: 25px;
     font-size: 40px;
     font-weight: bold;
 }
 
-.services{
+.services {
     font-size: 50px;
     color: rgb(255, 171, 16);
     font-weight: bold;
     margin-left: 25px;
 }
 
-.lorem{
+.lorem {
     font-size: 18px;
     margin-left: 30px;
 }
 
-.cvbutton{
-   margin-top: 40px;
-   margin-left: 30px;
-   padding: 8px 25px 8px 25px;
-   background-color: orange;
-   border-radius: 20px;
-   box-shadow: 5px 20px 30px orange;
-   font-weight: bold;
-   color: white;
-   transition: 0.3s;
+.cvbutton {
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 8px 25px 8px 25px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 5px 20px 30px orange;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
 }
 
-.cvbutton:hover{
+.cvbutton:hover {
     color: black;
     background-color: white;
     transform: translate(10px);
 }
 
-.imoji1{
+.imoji1 {
     font-size: 60px;
     margin-top: 3px;
     margin-left: 50px;
 }
 
-.frontend{
+.frontend {
     text-align: center;
 }
 
-.frontendText{
+.frontendText {
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
-    font-weight:200;
+    font-weight: 200;
 }
 
-.learn{
+.learn {
     text-align: center;
     color: rgb(55, 55, 232);
 }
 
-.learn:hover{
+.learn:hover {
     color: orange;
 }
 
-.imoji2,.imoji3{
+.imoji2,
+.imoji3 {
     font-size: 60px;
     margin-top: 3px;
     margin-left: 50px;
 }
 
-.backend,.uiux{
+.backend,
+.uiux {
     text-align: center;
 }
 
-.backendText,.uiuxText{
+.backendText,
+.uiuxText {
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
-    font-weight:200;
+    font-weight: 200;
     margin-top: 13px;
 }
 
-.learnMore{
+.learnMore {
     text-decoration: none;
     cursor: pointer;
     margin-left: 55px;
     margin-top: 20px;
-   
+
 }
 
-.link:hover{
+.link:hover {
     text-decoration: underline blue;
     transform: translate(5px);
 }
 
 
-                                               /* ThirdPage */
+/* ThirdPage */
+
+.c {
+    color: orange;
+    text-align: center;
+}
+
+.CertificateH {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+img {
+    width: 100%;
+    margin-top: 0.7rem;
+
+}
+
+.Cimage {
+    margin: 1rem;
+}
 
 
-#thirdPage{
+#thirdPage {
     margin-top: 100px;
 }
 
-.about-heading{
+.about-heading {
     text-align: center;
     font-size: 1.8rem;
 }
 
-.about-pic{
+.about-pic {
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -376,7 +403,7 @@ h3{
     border-radius: 15px;
 }
 
-.small-pic{
+.small-pic {
     background: url(owner.jpg);
     background-size: cover;
     height: 12.5rem;
@@ -385,57 +412,38 @@ h3{
     border: 5px solid orange;
 }
 
-.about-text{
+.about-text {
     width: 60vw;
 }
 
-.Aboutme{
+.Aboutme {
     color: orange;
-}                             
-                
-              
-/* Certificates */
-
-.c{
-    color: orange;
-    text-align: center;
 }
-.CertificateH{
-    font-size: 1.8rem;
-    text-align: center;
-    margin-top: 5rem;
-}
-img{
-    width: 100%;
-    margin-top: 0.7rem;
-    
-}
-.Cimage{
-    margin: 1rem;
-}
-               
 
 
 
 
-                                                 /* pagefour */
 
 
-#pageFive{
+
+/* pagefour */
+
+
+#pageFive {
     margin-top: 100px;
 }
 
-.recent{
+.recent {
     text-align: center;
     font-size: 30px;
     color: rgb(255, 166, 0);
 }
 
-.pro{
+.pro {
     color: var(--pro-color);
 }
 
-.main5{
+.main5 {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -445,7 +453,7 @@ img{
     justify-content: center;
 }
 
-.box5{
+.box5 {
     height: 250px;
     width: 250px;
     background-color: var(--accor);
@@ -457,7 +465,7 @@ img{
     box-shadow: 2px 2px 11px gray;
 }
 
-.img1{
+.img1 {
     height: 120px;
     width: 120px;
     background-color: white;
@@ -466,56 +474,56 @@ img{
     border: 2px solid black;
 }
 
-.img8{
+.img8 {
     background-image: url(weather.png);
     background-size: cover;
     background-position: center;
 }
 
-.img2{
+.img2 {
     background-image: url(todologo.png);
     background-size: cover;
     background-position: center;
 }
 
-.img3{
+.img3 {
     background-image: url(simonsayslogo.webp);
     background-size: cover;
     background-position: center;
 }
 
-.img4{
+.img4 {
     background-image: url(randomcolorimage.webp);
     background-size: cover;
     background-position: center;
 }
 
-.img5{
+.img5 {
     background-image: url(randomdgogimage.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.img6{
+.img6 {
     background-image: url(cat.jpg);
     background-size: cover;
     background-position: center;
 }
 
-h4{
+h4 {
     margin-top: 15px;
 }
 
-.links{
+.links {
     margin-top: 20px;
     border: 2px solid black;
     padding: 4px 30px 4px 30px;
     border-radius: 8px;
     color: white;
-    background-color: orange;  
+    background-color: orange;
 }
 
-.links:hover{
+.links:hover {
     color: black;
     transform: translateX(10px);
 }
@@ -523,10 +531,10 @@ h4{
 
 
 
-                                               /* accordians css */
+/* accordians css */
 
 
-.accordian{
+.accordian {
     background-color: var(--accor);
     padding: 20px;
     margin-bottom: 20px;
@@ -535,71 +543,72 @@ h4{
     box-shadow: var(--accorbox);
 }
 
-.accor{
+.accor {
     margin-top: 90px;
 }
 
-.questions{
+.questions {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.answer{
+.answer {
     overflow: hidden;
     color: #666;
     max-height: 0;
     transition: max-height 0.4s;
 }
 
-.icon{
+.icon {
     transition: transform 0.3s;
 }
 
-.answer.active{
+.answer.active {
     max-height: 200px;
 }
 
-.icon.active{
+.icon.active {
     transform: rotate(-180deg);
 }
-.accordian-question{
+
+.accordian-question {
     margin-top: 0;
 }
 
 
 
-                                                    /* pageSix */
+/* pageSix */
 
 
-#pageSix{
+#pageSix {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
 }
 
-.both{
+.both {
     margin-left: 40px;
 }
 
-.getcontact{
+.getcontact {
     font-size: 3.1rem;
     font-family: 'Commissioner';
 }
 
-.contact_form{
+.contact_form {
     width: 50vw;
     padding: 20px;
     margin: auto;
 }
 
-.contact_box{
-  margin-top: 70px;
-  width: 60vw;
+.contact_box {
+    margin-top: 70px;
+    width: 60vw;
 }
 
-.name{
+.name {
     margin-top: 30px;
     height: 5vh;
     width: 45vw;
@@ -609,7 +618,7 @@ h4{
     font-size: 16px;
 }
 
-.message{
+.message {
     margin-top: 30px;
     height: 5vh;
     width: 45vw;
@@ -619,7 +628,7 @@ h4{
     font-size: 16px;
 }
 
-.Email{
+.Email {
     margin-top: 30px;
     height: 5vh;
     width: 45vw;
@@ -629,11 +638,11 @@ h4{
     font-size: 16px;
 }
 
-.send{
+.send {
     width: 45vw;
     margin-left: 16px;
     margin-top: 60px;
-    padding: 6px 40px 6px 40px ;
+    padding: 6px 40px 6px 40px;
     background-color: rgb(248, 170, 26);
     border-radius: 20px;
     font-size: 20px;
@@ -642,21 +651,21 @@ h4{
     box-shadow: 5px 20px 30px orange;
 }
 
-.send:hover{
+.send:hover {
     color: black;
     background-color: white;
     transform: translateX(10px);
 }
 
-.contact_heart{
+.contact_heart {
     color: orange;
 }
 
-.footer{
+.footer {
     margin-top: 60px;
 }
 
-.ii{
+.ii {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -665,31 +674,27 @@ h4{
     padding: 5px;
 }
 
-.foot{
+.foot {
     color: rgb(92, 89, 89);
     margin: 17px;
 }
 
-.footertext{
+.footertext {
     text-align: center;
     font-size: 13px;
     /* padding: 10px; */
-   
+
 }
-.dark{
+
+.dark {
     background-color: black;
     color: white;
-   
+
     transition: 0.7s;
-    --li-color:white;
-    --pro-color:white;
-    --box-shadow:5px 20px 30px white;
-    --pipe:2px solid white;
-    --accor:#1e1e1e;
-    --accorbox:rgba(255, 255, 255, 0.1);
+    --li-color: white;
+    --pro-color: white;
+    --box-shadow: 5px 20px 30px white;
+    --pipe: 2px solid white;
+    --accor: #1e1e1e;
+    --accorbox: rgba(255, 255, 255, 0.1);
 }
-
-/* animation */
-
-
-

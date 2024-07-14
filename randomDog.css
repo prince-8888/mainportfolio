@@ -11,7 +11,7 @@ img{
     border-radius: 10px;
 }
 button{
-    /* margin-left: 500px; */
+    margin-left: 500px;
     margin-top: 20px;
     padding: 5px 30px 5px 30px;
     color: white;
@@ -28,20 +28,4 @@ button:hover{
     height: 400px;
     width: 500px;
     
-}
-
-@media screen and (max-width:500px) {
-    #result{
-        height: 250px;
-        width: 100%;
-        margin: auto;
-        border: 5px solid black;
-        border-radius: 6px;
-    }
-
-    h1{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(155, 48, 255);
-}
 }
