@@ -1,6 +1,8 @@
 @media screen and (max-width: 991px) {
     .navitems{
         display: none;
+        /* position: absolute;  */
+        
     }
     .content{
         flex-direction: column-reverse;
@@ -17,11 +19,11 @@
     
     .navitems ul{
         position: absolute; 
-        right: 10vw;
-        background-color: rgb(118, 117, 117);
+        right: 2rem;
+        background-color: rgb(107, 106, 106);
         padding: 7px;
         border-radius: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 7px;
         flex-direction: column;
     }
