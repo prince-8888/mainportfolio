@@ -29,3 +29,31 @@ for(acc of accordians){
     });
 
 }
+
+// skills js
+
+document.addEventListener("DOMContentLoaded", () => {
+  const skillItems = document.querySelectorAll(".skill-item");
+
+  skillItems.forEach(item => {
+      const percent = item.getAttribute("data-percent");
+      const circleProgress = item.querySelector(".circle-progress");
+      const numberDisplay = item.querySelector(".number");
+
+      // Calculate the offset based on the percentage
+      const offset = 283 - (283 * percent) / 100;
+      circleProgress.style.strokeDashoffset = offset;
+
+      // Animate the percentage number
+      let currentPercent = 0;
+      const interval = setInterval(() => {
+          if (currentPercent <= percent) {
+              numberDisplay.textContent = `${currentPercent}%`;
+              currentPercent++;
+          } else {
+              clearInterval(interval);
+          }
+      }, 20); // Adjust speed as needed
+  });
+});
+

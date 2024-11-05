@@ -13,6 +13,7 @@
 
 :root {
     --li-color: black;
+    --nav-ul-bg:white;
     --pro-color: black;
     --box-shadow: 5px 20px 30px yellow;
     --pipe: 2px solid rgb(0, 0, 0);
@@ -53,7 +54,6 @@ li {
 }
 
 ul {
-    /* position: relative; */
     display: flex;
 }
 
@@ -65,12 +65,12 @@ li {
 }
 
 .theme-icon {
-    font-size: 26px;
+    font-size: 32px;
     display: flex;
-    background-color: black;
+    background: none;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    /* margin: 20px; */
     border: none;
     border-radius: 50%;
     transition: 0.3s;
@@ -125,7 +125,7 @@ a {
     width: 21.8rem;
     border-radius: 50%;
     box-shadow: 5px 20px 30px #949DF9;
-    background-image: url(owner.jpg);
+    background-image: url(./assets/owner.jpg);
     background-size: cover;
     
 }
@@ -411,7 +411,7 @@ img {
 }
 
 .small-pic {
-    background: url(owner.jpg);
+    background: url(./assets/owner.jpg);
     background-size: cover;
     height: 12.5rem;
     width: 12.5rem;
@@ -481,37 +481,37 @@ img {
     border: 2px solid black;
 }
 .apnaghar{
-    background-image: url(apnaGhar.png);
+    background-image: url(./assets/apnaGhar.png);
     background-size: cover;
     background-position: center;
 }
 
 .img8 {
-    background-image: url(weather.png);
+    background-image: url(./assets/weather.png);
     background-size: cover;
     background-position: center;
 }
 
 .img2 {
-    background-image: url(todologo.png);
+    background-image: url(./assets/todologo.png);
     background-size: cover;
     background-position: center;
 }
 
 .img3 {
-    background-image: url(simonsayslogo.webp);
+    background-image: url(./assets/simonsayslogo.webp);
     background-size: cover;
     background-position: center;
 }
 
 .img4 {
-    background-image: url(randomcolorimage.webp);
+    background-image: url(./assets/randomcolorimage.webp);
     background-size: cover;
     background-position: center;
 }
 
 .img5 {
-    background-image: url(randomdgogimage.jpg);
+    background-image: url(./assets/randomdgogimage.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -704,9 +704,88 @@ h4 {
 
     transition: 0.7s;
     --li-color: white;
+    --nav-ul-bg:black;
     --pro-color: white;
     --box-shadow: 5px 20px 30px white;
     --pipe: 2px solid white;
     --accor: #1e1e1e;
     --accorbox: rgba(255, 255, 255, 0.1);
 }
+
+
+/* skills css */
+
+
+.skills-section {
+    text-align: center;
+    max-width: 1200px;
+    margin-top: 4rem;
+}
+
+
+.skills-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.skills-section p {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.skill-item {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.circle-svg {
+    width: 100px;
+    height: 100px;
+    /* transform: rotate(-90deg); */
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 10;
+}
+
+.circle-progress {
+    fill: none;
+    stroke: orange; /* Orange color */
+    stroke-width: 10;
+    stroke-dasharray: 283; /* Circumference of the circle */
+    stroke-dashoffset: 283; /* Start with hidden progress */
+    transition: stroke-dashoffset 2s ease;
+}
+
+.number {
+    font-size: 1.6rem;
+    font-weight: bold;
+    fill: #333;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.skill-skills{
+    color: var(--li-color);
+}
+
+
+@media screen and (max-width: 991px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 0.5fr));
+        column-gap: 50px;
+        justify-items: center;
+    }
+}
+
+
