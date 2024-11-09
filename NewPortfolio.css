@@ -27,6 +27,8 @@
     display: none;
 }
 
+                                         /* Hero Section */
+
 
 .focus {
     max-width: 1050px;
@@ -218,7 +220,7 @@ h3 {
     }
 }
 
-/* SecondPage  */
+                                      /* My Awesome Services  */
 
 #secondPage {
     margin-top: 80px;
@@ -369,7 +371,7 @@ h3 {
 }
 
 
-/* ThirdPage */
+                                        /* Certificate Section */
 
 .c {
     color: orange;
@@ -384,13 +386,22 @@ h3 {
 
 img {
     width: 100%;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
+    
+
 
 }
-
-.Cimage {
-    margin: 1rem;
+img:hover{
+    scale: 1.02;
+    transition: 0.4s;
+    box-shadow: 2px 2px 15px 5px gray;
 }
+.certificateImage{
+    width: 100%;
+    height: 80%;
+}
+
+
 
 
 #thirdPage {
@@ -433,7 +444,7 @@ img {
 
 
 
-/* pagefour */
+                                      /* Project Section */
 
 
 #pageFive {
@@ -451,14 +462,42 @@ img {
 }
 
 .main5 {
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    /* gap: 6px; */
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+    /* overflow: visible; */
 }
+
+  /* Swiper Configuration */
+.swiper-backface-hidden .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swiper{
+    overflow: visible !important;
+}
+.swiper-button-next:active{
+    transition-delay: 0;
+    background-color: grey;
+    border-radius: 50% !important;
+}
+
+.swiper-button-prev:active{
+    transition-delay: 0;
+    background-color: gray;
+    border-radius: 50% !important;
+}
+.swiper-pagination{
+    margin-top: 8px !important;
+    position: relative !important;
+}
+
 
 .box5 {
     height: 250px;
@@ -470,6 +509,9 @@ img {
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 2px 11px gray;
+}
+.box5:hover{
+box-shadow: 2px 2px 19px 5px rgb(255, 218, 148);
 }
 
 .img1 {
@@ -543,7 +585,7 @@ h4 {
 
 
 
-/* accordians css */
+                           /* accordians Section */
 
 
 .accordian {
@@ -591,7 +633,7 @@ h4 {
 
 
 
-/* pageSix */
+                                        /* Contact Section */
 
 
 #pageSix {
@@ -713,7 +755,7 @@ h4 {
 }
 
 
-/* skills css */
+                                   /* skills Section */
 
 
 .skills-section {
@@ -743,12 +785,18 @@ h4 {
 .skill-item {
     text-align: center;
     margin: 20px 0;
+    transition: 4s;
+}
+
+.skill-item:hover{
+    scale: 1.1;
+    transition: 0.3s !important;
 }
 
 .circle-svg {
     width: 100px;
     height: 100px;
-    /* transform: rotate(-90deg); */
+    
 }
 
 .circle-bg {

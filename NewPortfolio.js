@@ -1,15 +1,5 @@
-// let dark=document.querySelector(".fa-moon");
-// let bod = document.getElementsByTagName("body")[0];
-// dark.addEventListener("click", () =>{
 
-//     bod.classList.toggle("dark");
-
-
-//     // bob.textContent = document.body.classList.contains('dark') ? '🌞' : '🌙';
-    
-   
-// });
-
+                                        // Dark Mode
 
 const themeToggle = document.getElementById('theme-toggle');
 themeToggle.addEventListener('click', () => {
@@ -17,6 +7,7 @@ themeToggle.addEventListener('click', () => {
   themeToggle.textContent = document.body.classList.contains('dark') ? '🌞' : '🌙';
 });
 
+                           //    accordian Section
 
 const accordians=document.querySelectorAll('.accordian');
 for(acc of accordians){
@@ -30,7 +21,7 @@ for(acc of accordians){
 
 }
 
-// skills js
+                                    // skills js
 
 document.addEventListener("DOMContentLoaded", () => {
   const skillItems = document.querySelectorAll(".skill-item");
@@ -57,3 +48,38 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+                                    // Swiper Configuration
+new Swiper('.swiper', {
+    // Optional parameters
+    spaceBetween:30,
+    loop: false,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:true,
+      dynamicBullet:true
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints:{
+        0:{
+            slidesPerView:1
+        },
+        768:{
+            slidesPerView:2
+        },
+        1024:{
+            slidesPerView:3
+        },
+    }
+  
+    
+    
+  });
