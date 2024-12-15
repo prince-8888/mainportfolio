@@ -48,6 +48,8 @@ li {
 
 .navdiv {
     display: flex;
+    position: sticky;
+    
     width: 100%;
     /* height: 70px; */
     justify-content: space-between;
@@ -522,10 +524,24 @@ box-shadow: 2px 2px 19px 5px rgb(255, 218, 148);
     margin-top: 20px;
     border: 2px solid black;
 }
+
+.zooom{
+    background-image: url(./assets/zooom.webp);
+    background-size: cover;
+    background-position: center;
+
+}
 .apnaghar{
     background-image: url(./assets/apnaGhar.png);
     background-size: cover;
     background-position: center;
+}
+
+.zomato{
+    background-image: url(zomatoClone/assets/images/favicon.ico);
+    background-size: cover;
+    background-position: center;
+
 }
 
 .img8 {
@@ -817,7 +833,7 @@ h4 {
 .number {
     font-size: 1.6rem;
     font-weight: bold;
-    fill: #333;
+    fill: #a3a3a3;
     text-anchor: middle;
     dominant-baseline: middle;
 }
