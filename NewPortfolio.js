@@ -83,3 +83,16 @@ new Swiper('.swiper', {
     
     
   });
+
+
+ function openPopup(imgElement) {
+  var popup = document.getElementById("popup");
+  var popupImg = document.getElementById("popup-img");
+  popup.style.display = "block";
+  popupImg.src = imgElement.src;
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+

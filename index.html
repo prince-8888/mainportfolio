@@ -215,13 +215,21 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="./assets/Reliance.png" alt="image"></div>
-          <div class="swiper-slide"><img src="./assets/flipkart.png" alt="image"></div>
-          <div class="swiper-slide"><img src="./assets/awss.png" alt="image"></div>
-          <div class="swiper-slide"><img src="./assets/ProdgyC.png" alt="image"></div>
-          <div class="swiper-slide"><img src="./assets/AccentureC.png" alt="image"></div>
-          <div class="swiper-slide"><img src="./assets/TataC.png" alt="image"></div>
+          <div class="swiper-slide"><img src="./assets/AWS_solutionArchitect.png" alt="image" onclick="openPopup(this)">
+          </div>
+          <div class="swiper-slide"><img src="./assets/Deloitte.png" alt="image" onclick="openPopup(this)"></div>
+          <div class="swiper-slide"><img src="./assets/Reliance.png" alt="image" onclick="openPopup(this)"></div>
+          <div class="swiper-slide"><img src="./assets/flipkart.png" alt="image" onclick="openPopup(this)"></div>
+          <div class="swiper-slide"><img src="./assets/awss.png" alt="image" onclick="openPopup(this)"></div>
+          <div class="swiper-slide"><img src="./assets/ProdgyC.png" alt="image" onclick="openPopup(this)"></div>
+          <div class="swiper-slide"><img src="./assets/AccentureC.png" alt="image" onclick="openPopup(this)"></div>
+          <div class="swiper-slide"><img src="./assets/TataC.png" alt="image" onclick="openPopup(this)"></div>
 
+        </div>
+
+        <div id="popup" class="popup" onclick="closePopup()">
+          <span class="close-btn">&times;</span>
+          <img id="popup-img" class="popup-content">
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>

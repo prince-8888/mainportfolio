@@ -375,6 +375,40 @@ h3 {
 
                                         /* Certificate Section */
 
+/* Popup styles */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.popup-content {
+  max-width: 65%;
+  max-height: 80%;
+  margin-top: 6px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
 .c {
     color: orange;
     text-align: center;
